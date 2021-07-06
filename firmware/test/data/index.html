@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/ico">
+    <link href='http://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'
+          media='screen,projection'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no'/>
+    <meta name='mobile-web-app-capable' content='yes'>
+    <meta charset='utf-8'/>
+    <title>DSP AMP</title>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src='app.js'></script>
+    <script src='input-knobs.js'></script>
+    <script src='main.js'></script>
+</head>
+<body>
+
+<nav class='blue darken-4' id='nav'>
+    <div class='nav-wrapper container'><i class="material-icons left">home</i><a id='logo-container' href='/'
+                                                                                 class='brand-logo'></a>
+        <ul id="slide-out" class="sidenav">
+            <li><span class='grey-text text-darken-2' style="font-size: 1em;margin-left: 32px;">MENU</span></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a id='settings_link' class="waves-effect">Settings</a></li>
+            <li><a id='update_link' class="waves-effect">Update</a></li>
+            <div class="divider"></div>
+            <li><span class='version grey-text text-darken-2'
+                      style="font-size: 0.8em;margin-left: 32px;">ver. N\A</span></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large right"><i
+                class="material-icons">menu</i></a>
+    </div>
+</nav>
+<div class="progress" style="margin: 0;">
+    <div class="indeterminate"></div>
+</div>
+
+<!-- MAIN -->
+<div id='main' class='container'></div>
+
+<!-- SETTINGS -->
+<div id='settings' class='container' style="padding-top: 10px; display: none;">
+    <div class='row'>
+        <div class='col s12 m10 l8 xl6 offset-xl3 offset-l2 offset-m1 switch left blue-grey-text'>
+            <div class="input-field col s8">
+                <input id="mqtt_server" type="text" data-length="40" class="validate">
+                <label class="active" for="mqtt_server">MQTT Server</label>
+            </div>
+            <div class="input-field col s4">
+                <input id="mqtt_port" type="number" min="0" max="99999" data-length="5" class="validate">
+                <label class="active" for="mqtt_port">MQTT Port</label>
+            </div>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col s12 m10 l8 xl6 offset-xl3 offset-l2 offset-m1 switch left blue-grey-text'>
+            <div class="input-field col s6">
+                <input id="mqtt_user" type="text" data-length="20" class="validate">
+                <label class="active" for="mqtt_user">MQTT User</label>
+            </div>
+            <div class="input-field col s6">
+                <input id="mqtt_pass" type="text" data-length="20" class="validate">
+                <label class="active" for="mqtt_pass">MQTT Password</label>
+            </div>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col s12 m10 l8 xl6 offset-xl3 offset-l2 offset-m1 switch left blue-grey-text'>
+            <div class="input-field col s12">
+                <input id="mqtt_client_id" type="text" data-length="20" class="validate">
+                <label class="active" for="mqtt_client_id">MQTT Client ID</label>
+            </div>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col s12 m10 l8 xl6 offset-xl3 offset-l2 offset-m1 switch left blue-grey-text'>
+            <div class="input-field col s12">
+                <input id="mqtt_topic" type="text" data-length="40" class="validate">
+                <label class="active" for="mqtt_topic">MQTT Topic</label>
+            </div>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col s6 m10 l8 xl6 offset-xl3 offset-l2 offset-m1 switch left blue-grey-text'>
+            <div class="input-field col s6">
+                <input id="host_name" type="text" data-length="15" class="validate">
+                <label class="active" for="host_name">Host name</label>
+            </div>
+            <div class="input-field col s6">
+                <label>
+                    <input id="retain" type="checkbox">
+                    <span class="active" for="retain">Retained flag</span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class='row'>
+        <div class='col s12 m10 l8 xl6 offset-xl3 offset-l2 offset-m1 switch left blue-grey-text'>
+            <button data-target="reset_modal" class="reset waves-effect waves-light btn modal-trigger red lighten-2">
+                Reset
+                <i class="hide-on-med-and-down material-icons right">highlight_off</i>
+            </button>
+            <button class="restart btn waves-effect waves-light" type="submit" name="action">Restart
+                <i class="hide-on-med-and-down material-icons right">sync</i>
+            </button>
+            <button class="save right btn waves-effect waves-light" type="submit" name="action">Save
+                <i class="hide-on-med-and-down material-icons right">save</i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- UPDATE -->
+<div id='update' class='container' style="padding-top: 10px; display: none;">
+    <div class='row'>
+        <form id='update_form' enctype='multipart/form-data' action='#' onsubmit="return false">
+            <div class="col s12 m8 l8 xl6 offset-l3 offset-m2 offset-xl3 file-field input-field">
+                <div class="col s2 m2 l2 btn">
+                    <span>File</span>
+                    <input type="file" name='update'>
+                </div>
+                <div class="col s8 m7 l8 file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Upload file">
+                </div>
+                <div class='right col s1 m1 l2 blue-grey-text'>
+                    <button id='update_btn' class="right btn waves-effect waves-light" type="submit" name="action">
+                        Update
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="reset_modal" class="modal">
+    <div class="modal-content">
+        <h4>ATTENTION!</h4>
+        <p>Are you sure you want to reset all module settings?</p>
+    </div>
+    <div class="modal-footer">
+        <a class="modal-close waves-effect waves-red btn-flat">Cancel</a>
+        <a class="reset_agree modal-close waves-effect waves-green btn-flat red lighten-4">Reset</a>
+    </div>
+</div>
+<footer class='page-footer blue darken-4'>
+    <div class='footer-copyright'>
+        <div class="container">© <script>document.write(new Date().getFullYear())</script> Manufactured by <a class="grey-text text-lighten-1" href="https://blog.instalator.ru">instalator</a>
+            <span class="version grey-text text-darken-2 right" style="font-size: 0.8em;">ver. 0.0.1</span>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
