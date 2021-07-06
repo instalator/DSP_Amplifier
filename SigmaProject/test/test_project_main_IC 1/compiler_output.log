@@ -1,0 +1,54 @@
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.6.0,1809  (built 12/23/2020)
+
+##### Compile Started: Friday, July 02, 2021 10:40:07 AM #####
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.6.0,1809  (built 12/23/2020)
+
+##### Compile Started: Friday, July 02, 2021 10:40:07 AM #####
+##### Compile succeeded:  0 errors, 0 warnings #####
+
+##### Summary #####
+DM0 RAM used:       00114    (of 20480)
+DM1 RAM used:       00064    (of 20480)
+PM  RAM used(Data): 00000    (of 8192)
+PM  RAM used(Inst): 00280    (of 8192) 237 instructions (32bit: 194  64bit: 43)
+Total PM used:      00280    (of 8192)
+
+--------------------------------------------------------------------------------------
+STREAM                        Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+NxM Mixer1                    49        76        80      8       0
+FRAMEWORK                     88        63        4       26      0
+Slew vol 1_2                  11        13        0       4       0
+Input1                        8         8         0       4       0
+SPDIF RX                      6         6         1       2       0
+X1_3                          5         5         0       1       0
+X1_4                          5         5         0       1       0
+Mute1_8                       4         4         1       1       0
+Mute1_7                       4         4         1       1       0
+Mute1_6                       4         4         1       1       0
+Mute1_5                       4         4         1       1       0
+Mute1_4                       4         4         1       1       0
+Mute1_3                       4         4         1       1       0
+Mute1                         4         4         1       1       0
+Mute1_2                       4         4         1       1       0
+PCM2706                       4         4         0       2       0
+ESP32                         4         4         0       2       0
+ADC 0-10V_2                   4         4         0       1       0
+DC1_2                         2         2         1       1       0
+Output1_7                     2         2         0       0       0
+Output1_0                     2         2         0       0       0
+Output1_2                     2         2         0       0       0
+Output1_3                     2         2         0       0       0
+Output1_4                     2         2         0       0       0
+Output1_5                     2         2         0       0       0
+Output1_6                     2         2         0       0       0
+Output1_8                     2         2         0       0       0
+--------------------------------------------------------------------------------------
+Total                         234       238       110     60      0
+--------------------------------------------------------------------------------------
+(% Fs=48.0kHz)                4%        3%        1%      1%      0%
+

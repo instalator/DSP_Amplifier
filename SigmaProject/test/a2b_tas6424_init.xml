@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="no"?>
+<ROM>
+  <page modetype="Mode 0">
+    <action instr="writeXbytes" addr_width="1" data_width="1" len="2" addr="0" i2caddr="106" AddrIncr="1" ParamName="Reset TAS6424">80</action>
+    <action instr="writeXbytes" addr_width="1" data_width="1" len="2" addr="33" i2caddr="106" AddrIncr="0" ParamName="Clear all fault">80</action>
+    <action instr="writeXbytes" addr_width="1" data_width="1" len="2" addr="1" i2caddr="106" AddrIncr="1" ParamName="Gain level 1 = 7.6 V peak output voltage">30</action>
+    <action instr="writeXbytes" addr_width="1" data_width="1" len="2" addr="3" i2caddr="106" AddrIncr="1" ParamName="48 kHz / Left justified">46</action>
+    <action instr="writeXbytes" addr_width="1" data_width="1" len="2" addr="2" i2caddr="106" AddrIncr="1" ParamName="48 × fS 2.12 MHz">72</action>
+    <action instr="writeXbytes" addr_width="1" data_width="1" len="2" addr="4" i2caddr="106" AddrIncr="1" ParamName="ALL STATE PLAY">00</action>
+  </page>
+</ROM>

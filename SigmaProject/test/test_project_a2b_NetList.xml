@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright © 2021 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--NetList XML file-->
+<NetList>
+    <IC name=" IC 2 " type="AD2410">
+        <Schematic>
+            <Algorithm name="a2b_tpnode_algo1" friendlyname="Processor Node " cell="Processor0 " location="{X=36, Y=153} " Growth="0 " GrowthB="0">
+                <Link pin="O_C45_A0_P1_out" dir="out" link="Link3" />
+                <Link pin="O_C45_A0_P1_out" dir="out" link="Link4" />
+            </Algorithm>
+            <Algorithm name="a2b_pdnode_ahost_algo1" friendlyname="Audio Host peripheral node " cell="ADAU1452 " location="{X=31, Y=241} " Growth="0 " GrowthB="0">
+                <Link pin="I_C97_A0_P1_in" dir="in" link="Link3" />
+                <Link pin="O_C97_A0_P2_out" dir="out" link="Link5" />
+                <Link pin="O_C97_A0_P4_out" dir="out" link="Link7" />
+            </Algorithm>
+            <Algorithm name="ad242x_mnode_algo1" friendlyname="AD242x Master Node " cell="AD242x Master Node0 " location="{X=239, Y=244} " Growth="0 " GrowthB="0">
+                <Link pin="I_C12_A0_P1_in" dir="in" link="Link4" />
+                <Link pin="I_C12_A0_P2_in" dir="in" link="Link5" />
+                <Link pin="I_C12_A0_P4_in" dir="in" link="Link7" />
+                <Link pin="O_C12_A0_P6_out" dir="out" link="Link6" />
+            </Algorithm>
+            <Algorithm name="ad242x_snode_algo1" friendlyname="AD242x Slave Node " cell="AD242x Slave Amplifier 1 " location="{X=460, Y=239} " Growth="0 " GrowthB="0">
+                <Link pin="I_C28_A0_P1_in" dir="in" link="Link6" />
+                <Link pin="O_C28_A0_P2_out" dir="out" link="Link0" />
+                <Link pin="O_C28_A0_P2_out" dir="out" link="Link1" />
+                <Link pin="O_C28_A0_P5_out" dir="out" link="Link2" />
+                <Link pin="O_C28_A0_P7_out" dir="out" link="Link11" />
+            </Algorithm>
+            <Algorithm name="a2b_pdnode_i2c_algo1" friendlyname="Generic I2C peripheral node " cell="Amp_1_1 " location="{X=468, Y=2} " Growth="0 " GrowthB="0">
+                <Link pin="I_C63_A0_P1_in" dir="in" link="Link0" />
+            </Algorithm>
+            <Algorithm name="a2b_pdnode_i2c_algo2" friendlyname="Generic I2C peripheral node " cell="Amp_1_2 " location="{X=470, Y=66} " Growth="0 " GrowthB="0">
+                <Link pin="I_C67_A0_P1_in" dir="in" link="Link1" />
+            </Algorithm>
+            <Algorithm name="a2b_pdnode_snk_algo1" friendlyname="Audio Sink peripheral node " cell="Audio Sink0 " location="{X=455, Y=133} " Growth="0 " GrowthB="0">
+                <Link pin="I_C13_A0_P2_in" dir="in" link="Link2" />
+            </Algorithm>
+            <Algorithm name="ad242x_snode_algo3" friendlyname="AD242x Slave Node " cell="AD242x Slave ESP " location="{X=713, Y=278} " Growth="0 " GrowthB="0">
+                <Link pin="I_C58_A0_P1_in" dir="in" link="Link11" />
+                <Link pin="O_C58_A0_P2_out" dir="out" link="Link14" />
+                <Link pin="O_C58_A0_P3_out" dir="out" link="Link13" />
+                <Link pin="O_C58_A0_P7_out" dir="out" link="Link12" />
+            </Algorithm>
+            <Algorithm name="ad242x_snode_algo2" friendlyname="AD242x Slave Node " cell="AD242x Slave Amplifier 2 " location="{X=1116, Y=88} " Growth="0 " GrowthB="0">
+                <Link pin="I_C9_A0_P1_in" dir="in" link="Link12" />
+                <Link pin="O_C9_A0_P2_out" dir="out" link="Link8" />
+                <Link pin="O_C9_A0_P2_out" dir="out" link="Link9" />
+                <Link pin="O_C9_A0_P5_out" dir="out" link="Link10" />
+            </Algorithm>
+            <Algorithm name="a2b_pdnode_src_algo1" friendlyname="Audio Source peripheral node " cell="Audio Source0 " location="{X=709, Y=134} " Growth="0 " GrowthB="0">
+                <Link pin="I_C79_A0_P2_in" dir="in" link="Link13" />
+            </Algorithm>
+            <Algorithm name="a2b_pdnode_i2c_algo5" friendlyname="Generic I2C peripheral node " cell="Amp_1_3 " location="{X=860, Y=279} " Growth="0 " GrowthB="0">
+                <Link pin="I_C0_A0_P1_in" dir="in" link="Link14" />
+            </Algorithm>
+            <Algorithm name="a2b_pdnode_i2c_algo3" friendlyname="Generic I2C peripheral node " cell="Amp_2_1 " location="{X=1271, Y=16} " Growth="0 " GrowthB="0">
+                <Link pin="I_C42_A0_P1_in" dir="in" link="Link8" />
+            </Algorithm>
+            <Algorithm name="a2b_pdnode_i2c_algo4" friendlyname="Generic I2C peripheral node " cell="Amp_2_2 " location="{X=1273, Y=80} " Growth="0 " GrowthB="0">
+                <Link pin="I_C47_A0_P1_in" dir="in" link="Link9" />
+            </Algorithm>
+            <Algorithm name="a2b_pdnode_snk_algo2" friendlyname="Audio Sink peripheral node " cell="Audio Sink0_1 " location="{X=1265, Y=147} " Growth="0 " GrowthB="0">
+                <Link pin="I_C27_A0_P2_in" dir="in" link="Link10" />
+            </Algorithm>
+        </Schematic>
+    </IC>
+</NetList>

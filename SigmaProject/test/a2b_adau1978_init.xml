@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="no"?>
+<ROM>
+  <page modetype="Mode 0">
+    <action instr="writeXbytes" addr_width="1" data_width="1" len="2" addr="0" i2caddr="210" AddrIncr="1" ParamName="Reset ADAU1978">80</action>
+    <action instr="writeXbytes" addr_width="1" data_width="1" len="2" addr="0" i2caddr="210" AddrIncr="1" ParamName="Power UP">01</action>
+    <action instr="writeXbytes" addr_width="1" data_width="1" len="2" addr="5" i2caddr="210" AddrIncr="1" ParamName="TDM">42</action>
+    <action instr="writeXbytes" addr_width="1" data_width="1" len="2" addr="10" i2caddr="210" AddrIncr="1" ParamName="Gain 1">E0</action>
+    <action instr="writeXbytes" addr_width="1" data_width="1" len="2" addr="11" i2caddr="210" AddrIncr="1" ParamName="Gain 2">E0</action>
+  </page>
+</ROM>

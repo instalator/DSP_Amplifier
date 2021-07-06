@@ -1,0 +1,304 @@
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam sequence {
+ArrowColor DeepSkyBlue
+ActorBorderColor DeepSkyBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor #A9DCDF
+ParticipantBorderColor DeepSkyBlue
+ParticipantBackgroundColor DodgerBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #black
+ActorBackgroundColor aqua
+ActorFontColor DeepSkyBlue
+ActorFontSize 17
+ActorFontName Aapex
+TitleFontSize 24
+}
+participant Application #90EE90
+participant Stack #ADD8E6
+participant Platform #gray
+participant PluginM #FFDB00
+autonumber "<b>[000]"
+title Sequence Chart
+
+== Starting Discovery Mode 0 ==
+note left: TS=0000000011
+PluginM -[#blue]>> Platform : a2b_i2cWriteRead(0x68, 1, 2) -> 02
+note left: TS=0000000014
+Platform -[#blue]->> PluginM : a2b_i2cWriteRead(0x68, 1, 2) <- AD 28
+note left: TS=0000000014
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 12 84
+note left: TS=0000000015
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000015
+...Reset Delay...
+note left: TS=0000000015
+PluginM -[#blue]>> Platform : a2b_i2cWriteRead(0x68, 1, 1) -> 16
+note left: TS=0000000018
+Platform -[#blue]->> PluginM : a2b_i2cWriteRead(0x68, 1, 1) <- 80
+note left: TS=0000000018
+PluginM -[#blue]>> Platform : a2b_i2cWriteRead(0x68, 1, 1) -> 17
+note left: TS=0000000022
+Platform -[#blue]->> PluginM : a2b_i2cWriteRead(0x68, 1, 1) <- FF
+note left: TS=0000000022
+Application o[#green]->> Application : a2b_msgRtrNotify(m: 0x7c998e8, cmd: 3, ud: 0x7c9acc0)
+note left: TS=0000000022
+PluginM -[#blue]>> Platform : a2b_i2cWriteRead(0x68, 1, 1) -> 16
+note left: TS=0000000025
+Platform -[#blue]->> PluginM : a2b_i2cWriteRead(0x68, 1, 1) <- 00
+note left: TS=0000000025
+PluginM -[#blue]>> Platform : a2b_i2cWriteRead(0x68, 1, 1) -> 16
+note left: TS=0000000038
+Platform -[#blue]->> PluginM : a2b_i2cWriteRead(0x68, 1, 1) <- 00
+note left: TS=0000000038
+group PreMasterInit
+PluginM -[#blue]>> Platform : a2b_i2cWriteRead(0x68, 1, 3) -> 02
+note left: TS=0000000043
+Platform -[#blue]->> PluginM : a2b_i2cWriteRead(0x68, 1, 3) <- AD 28 00
+note left: TS=0000000043
+note right of Platform
+Master Node Silicon: vid/pid/ver: AD/28/00
+end note
+group Interrupt Registers
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 4) -> 1B 7F 00 0F
+note left: TS=0000000044
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 4) <- Success
+note left: TS=0000000044
+end
+group Mailbox Registers
+end
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 1A 01
+note left: TS=0000000045
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000045
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 0F 96
+note left: TS=0000000046
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000046
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 12 81
+note left: TS=0000000047
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000047
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 41 02
+note left: TS=0000000048
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000048
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 09 01
+note left: TS=0000000049
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000049
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 13 96
+note left: TS=0000000050
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000050
+...Waiting for INTTYPE.DSCDONE...
+note left: TS=0000000050
+end
+PluginM -[#blue]>> Platform : a2b_i2cWriteRead(0x68, 1, 1) -> 16
+note left: TS=0000000054
+Platform -[#blue]->> PluginM : a2b_i2cWriteRead(0x68, 1, 1) <- 00
+note left: TS=0000000054
+PluginM -[#blue]>> Platform : a2b_i2cWriteRead(0x68, 1, 1) -> 16
+note left: TS=0000000068
+Platform -[#blue]->> PluginM : a2b_i2cWriteRead(0x68, 1, 1) <- 80
+note left: TS=0000000068
+PluginM -[#blue]>> Platform : a2b_i2cWriteRead(0x68, 1, 1) -> 17
+note left: TS=0000000072
+Platform -[#blue]->> PluginM : a2b_i2cWriteRead(0x68, 1, 1) <- 18
+note left: TS=0000000072
+Application o[#green]->> Application : a2b_msgRtrNotify(m: 0x7c998e8, cmd: 3, ud: 0x7c9acc0)
+note left: TS=0000000075
+group NodeDiscovered nodeAddr 0
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 09 21
+note left: TS=0000000076
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000076
+group A2B VID/PID/VERSION/CAP
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 01 00
+note left: TS=0000000077
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000077
+PluginM -[#blue]>> Platform : a2b_i2cWriteRead(0x69, 1, 4) -> 02
+note left: TS=0000000082
+Platform -[#blue]->> PluginM : a2b_i2cWriteRead(0x69, 1, 4) <- AD 28 00 01
+note left: TS=0000000082
+end
+note right of Platform
+Silicon vid/pid/ver/cap: AD/28/00/01
+end note
+note right of Platform
+BDD vid/pid/ver: AD/28/00
+end note
+end
+group NetComplete
+group NodeComplete for nodeAddr 0
+group Control Registers
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 0B 80
+note left: TS=0000000083
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000083
+end
+group I2C/I2S Registers
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 3F 01
+note left: TS=0000000084
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000084
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 41 02
+note left: TS=0000000086
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000086
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 42 03
+note left: TS=0000000087
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000087
+end
+group Pin I/O Registers
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 4A 60
+note left: TS=0000000088
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000088
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 4D 60
+note left: TS=0000000089
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000089
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 59 81
+note left: TS=0000000090
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000090
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 5A 01
+note left: TS=0000000091
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000091
+end
+group Slot Enhancement Registers
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 65 FF
+note left: TS=0000000093
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000093
+end
+group GPIO Over Distance Registers
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 8A 20
+note left: TS=0000000094
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000094
+end
+group 242x I2S Registers
+end
+group Interrupt Registers
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 3) -> 1B 00 00
+note left: TS=0000000095
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 3) <- Success
+note left: TS=0000000095
+end
+end
+note right of Platform
+Plugin 'A2B Slave Plugin' opened to manage node: 0
+end note
+PluginM -[#blue]>> Plugin0 : a2b_msgRtrSendRequest(m: 0x7c998e8, cmd: 4, ud: 0x7c85228)
+note left: TS=0000000095
+end
+PluginM -[#blue]>> Platform : a2b_i2cWriteRead(0x68, 1, 1) -> 16
+note left: TS=0000000099
+Platform -[#blue]->> PluginM : a2b_i2cWriteRead(0x68, 1, 1) <- 00
+note left: TS=0000000099
+== Slave0 Plugin: A2B_MSGREQ_PLUGIN_PERIPH_INIT Processed (rate: 0) ==
+note left: TS=0000000156
+Plugin0 -[#blue]->> PluginM : a2b_msgRtrSendReply(m: 0x7c998e8, cmd: 4, ud: 0x7c85228)
+note left: TS=0000000156
+group NetComplete
+group NodeComplete for nodeAddr -1
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 09 01
+note left: TS=0000000157
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000157
+group Control Registers
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 0D 08
+note left: TS=0000000158
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000158
+end
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 41 02
+note left: TS=0000000161
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000161
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 42 33
+note left: TS=0000000162
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000162
+group Pin I/O Registers
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 59 01
+note left: TS=0000000163
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000163
+end
+group 242x I2S Registers
+end
+group Interrupt Registers
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 4) -> 1B 7F 00 0F
+note left: TS=0000000164
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 4) <- Success
+note left: TS=0000000164
+end
+end
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 01 00
+note left: TS=0000000165
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000165
+group Final Master Setup
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 01 00
+note left: TS=0000000166
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000166
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 01 80
+note left: TS=0000000167
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000167
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 40 00
+note left: TS=0000000169
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000169
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 01 00
+note left: TS=0000000170
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000170
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 10 44
+note left: TS=0000000171
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000171
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 11 03
+note left: TS=0000000172
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000172
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 56 02
+note left: TS=0000000173
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000173
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 12 81
+note left: TS=0000000175
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000175
+end
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 01 00
+note left: TS=0000000176
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000176
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x69, 2) -> 09 00
+note left: TS=0000000177
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x69, 2) <- Success
+note left: TS=0000000177
+group Discovery End (err: 0x0)
+PluginM -[#blue]>> Platform : a2b_i2cWrite(0x68, 2) -> 12 82
+note left: TS=0000000178
+Platform -[#blue]->> PluginM : a2b_i2cWrite(0x68, 2) <- Success
+note left: TS=0000000178
+PluginM -[#blue]->> Application : DiscoveryResp: status: 0x00000000, numNodes: 1
+note left: TS=0000000178
+PluginM -[#blue]->> Application : a2b_msgRtrSendReply(m: 0x7c99894, cmd: 2, ud: 0x7c9acc0)
+note left: TS=0000000178
+== Discovery Ended ==
+note left: TS=0000000178
+end
+end
+@enduml

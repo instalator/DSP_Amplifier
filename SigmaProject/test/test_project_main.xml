@@ -1,0 +1,1599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright ©2021 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--SigmaStudio export XML file-->
+<Schematic>
+    <IC>
+        <Name>IC 1</Name>
+        <PartNumber>ADAU1452</PartNumber>
+        <Register>
+            <Name>__SafeLoad_Module__data_SafeLoad</Name>
+            <Address>24576</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>20</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__address_SafeLoad</Name>
+            <Address>24581</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__SafeLoad_Module__num_SafeLoad</Name>
+            <Address>24582</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__IndirectParamAccess_Module__start_address</Name>
+            <Address>24583</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x60, 0x09, </Data>
+        </Register>
+        <Register>
+            <Name>__IndirectParamAccess_Module__num_of_loads_and_trigger</Name>
+            <Address>24584</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__IndirectParamAccess_Module__value0</Name>
+            <Address>24585</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__IndirectParamAccess_Module__value1</Name>
+            <Address>24586</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__IndirectParamAccess_Module__value2</Name>
+            <Address>24587</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__IndirectParamAccess_Module__value3</Name>
+            <Address>24588</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__IndirectParamAccess_Module__value4</Name>
+            <Address>24589</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__IndirectParamAccess_Module__value5</Name>
+            <Address>24590</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__IndirectParamAccess_Module__value6</Name>
+            <Address>24591</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__IndirectParamAccess_Module__value7</Name>
+            <Address>24592</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>4</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>__IndirectParamAccess_Module__addresses</Name>
+            <Address>24593</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>32</Size>
+            <Data>0x00, 0x00, 0x00, 0x15, 0x00, 0x00, 0x00, 0x16, 0x00, 0x00, 0x00, 0x17, 0x00, 0x00, 0x00, 0x18, 0x00, 0x00, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x20, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00, 0x22, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOFT_RESET</Name>
+            <Address>63632</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Reset Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Hibernate Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_ENABLE</Name>
+            <Address>61443</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CTRL0 Register</Name>
+            <Address>61440</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x60, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CTRL1 Register</Name>
+            <Address>61441</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_CLK_SRC Register</Name>
+            <Address>61442</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MCLK_OUT Register</Name>
+            <Address>61445</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x05, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL_ENABLE Register</Name>
+            <Address>61443</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PLL Lock Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFF, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.POWER_ENABLE0 Register</Name>
+            <Address>61520</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x1F, 0x3F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.POWER_ENABLE1 Register</Name>
+            <Address>61521</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x07, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_MUTE</Name>
+            <Address>62849</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0xFE, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.CLK_GEN3_SRC</Name>
+            <Address>61478</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.PANIC_PARITY_MASK</Name>
+            <Address>62498</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.DMIC_CTRL0</Name>
+            <Address>62816</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.DMIC_CTRL1</Name>
+            <Address>62817</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.FTDM_OUT1</Name>
+            <Address>62337</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x04, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.BCLK_IN0_PIN</Name>
+            <Address>63360</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.BCLK_IN1_PIN</Name>
+            <Address>63361</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.BCLK_IN2_PIN</Name>
+            <Address>63362</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.BCLK_IN3_PIN</Name>
+            <Address>63363</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.BCLK_OUT0_PIN</Name>
+            <Address>63364</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x0F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.BCLK_OUT1_PIN</Name>
+            <Address>63365</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.BCLK_OUT2_PIN</Name>
+            <Address>63366</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.BCLK_OUT3_PIN</Name>
+            <Address>63367</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.LRCLK_IN0_PIN</Name>
+            <Address>63368</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.LRCLK_IN1_PIN</Name>
+            <Address>63369</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.LRCLK_IN2_PIN</Name>
+            <Address>63370</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.LRCLK_IN3_PIN</Name>
+            <Address>63371</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.LRCLK_OUT0_PIN</Name>
+            <Address>63372</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x0F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.LRCLK_OUT1_PIN</Name>
+            <Address>63373</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.LRCLK_OUT2_PIN</Name>
+            <Address>63374</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.LRCLK_OUT3_PIN</Name>
+            <Address>63375</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_IN0_PIN</Name>
+            <Address>63376</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_IN1_PIN</Name>
+            <Address>63377</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_IN2_PIN</Name>
+            <Address>63378</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_IN3_PIN</Name>
+            <Address>63379</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_OUT0_PIN</Name>
+            <Address>63380</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x0F, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_OUT1_PIN</Name>
+            <Address>63381</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_OUT2_PIN</Name>
+            <Address>63382</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SDATA_OUT3_PIN</Name>
+            <Address>63383</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SPDIF_TX_PIN</Name>
+            <Address>63384</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SCLK_SCL_PIN</Name>
+            <Address>63385</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MISO_SDA_PIN</Name>
+            <Address>63386</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SS_PIN</Name>
+            <Address>63387</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MOSI_ADDR1_PIN</Name>
+            <Address>63388</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SCLK_SCL_M_PIN</Name>
+            <Address>63389</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MISO_SDA_M_PIN</Name>
+            <Address>63390</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SS_M_PIN</Name>
+            <Address>63391</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MOSI_M_PIN</Name>
+            <Address>63392</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MP6_PIN</Name>
+            <Address>63393</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.MP7_PIN</Name>
+            <Address>63394</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.CLKOUT_PIN</Name>
+            <Address>63395</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_INPUT0</Name>
+            <Address>61696</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x3B, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.ASRC_OUT_RATE0</Name>
+            <Address>61760</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x06, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE0</Name>
+            <Address>61824</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE1</Name>
+            <Address>61825</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE2</Name>
+            <Address>61826</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE3</Name>
+            <Address>61827</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE4</Name>
+            <Address>61828</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE5</Name>
+            <Address>61829</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE6</Name>
+            <Address>61830</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SOUT_SOURCE7</Name>
+            <Address>61831</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_0_0</Name>
+            <Address>61952</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x0A, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_1_0</Name>
+            <Address>61956</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x08, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_2_0</Name>
+            <Address>61960</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x48, 0x2D, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_3_0</Name>
+            <Address>61964</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x6C, 0x24, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_4_0</Name>
+            <Address>61968</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x0A, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_4_1</Name>
+            <Address>61969</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x22, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_5_0</Name>
+            <Address>61972</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0xA0, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_5_1</Name>
+            <Address>61973</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x22, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_6_0</Name>
+            <Address>61976</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_6_1</Name>
+            <Address>61977</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x22, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_7_0</Name>
+            <Address>61980</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x90, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SERIAL_BYTE_7_1</Name>
+            <Address>61981</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x20, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.SPDIF_RESTART</Name>
+            <Address>62980</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Program>
+            <Name>Program Data</Name>
+            <Address>49152</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>1120</Size>
+            <Data>0x00, 0x00, 0x00, 0x02, 0x0C, 0x00, 0xDC, 0xDC, 0x0D, 0x00, 0xFF, 0xD2, 0x0D, 0x00, 0xFF, 0xD0, 0x0D, 0x00, 0xF4, 0x50, 0x0D, 0x00, 0xF4, 0x00, 0xC0, 0x00, 0x23, 0x80, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0x00, 0x80, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x23, 0xC0, 0x80, 0x00, 0x00, 0x10, 0xC0, 0x00, 0x22, 0x00, 0x80, 0x00, 0x00, 0x00, 0x08, 0x80, 0xDC, 0xE0, 0x0C, 0x00, 0xDC, 0xDC, 0x0A, 0x21, 0x00, 0x12, 0x08, 0x00, 0x00, 0x10, 0x01, 0x00, 0x00, 0x14, 0x06, 0x40, 0x50, 0x10, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x27, 0x0D, 0x00, 0xFF, 0xC1, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x01, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x00, 0x0D, 0x00, 0xF4, 0x62, 0xC0, 0x00, 0x20, 0x00, 0x80, 0x00, 0x00, 0x02, 0x0D, 0x00, 0xFF, 0xD1, 0x00, 0x00, 0x00, 0x03, 0x0D, 0x00, 0xFF, 0xD2, 0x00, 0x00, 0x00, 0x05, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x01, 0x00, 0x22, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x08, 0x9E, 0xDC, 0xE0, 0x08, 0x9C, 0x00, 0x10, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x4F, 0x00, 0x00, 0x08, 0x8A, 0xDC, 0xE0, 0x0A, 0x23, 0x00, 0x06, 0x00, 0x8C, 0x20, 0x00, 0x0A, 0xA7, 0x00, 0x05, 0x02, 0x09, 0x00, 0x3E, 0xC0, 0x00, 0x28, 0x70, 0x80, 0x00, 0x60, 0x00, 0x00, 0x8C, 0x11, 0x91, 0x00, 0x00, 0x00, 0x23, 0x00, 0x00, 0x00, 0x00, 0x30, 0x00, 0xBC, 0xE9, 0x00, 0x00, 0xC2, 0xF1, 0x01, 0x00, 0x00, 0x3D, 0x06, 0x00, 0x50, 0x14, 0x36, 0x40, 0x50, 0x15, 0x26, 0x40, 0x40, 0x15, 0x09, 0x2B, 0x00, 0x06, 0x00, 0x00, 0x00, 0x00, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x4F, 0x00, 0x09, 0x08, 0x8A, 0xDC, 0xE0, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x6F, 0x00, 0x11, 0xC0, 0x00, 0x29, 0xF0, 0x80, 0x00, 0x60, 0x00, 0x0A, 0x23, 0x00, 0x08, 0x00, 0x8C, 0x20, 0x00, 0x0A, 0xA7, 0x00, 0x07, 0x02, 0x09, 0x00, 0x5C, 0xC0, 0x00, 0x28, 0x70, 0x80, 0x00, 0x60, 0x09, 0x00, 0x84, 0x1A, 0x91, 0x00, 0x00, 0xDA, 0x72, 0x00, 0x00, 0xDB, 0x72, 0x00, 0x00, 0x24, 0x80, 0x01, 0x00, 0x00, 0x5B, 0x05, 0x2C, 0x98, 0x06, 0x00, 0x8C, 0x11, 0x97, 0x00, 0x00, 0x00, 0x23, 0x00, 0x00, 0x00, 0x00, 0x30, 0x00, 0xBC, 0xE9, 0x00, 0x00, 0xC2, 0xF1, 0x06, 0x00, 0x50, 0x14, 0x36, 0x40, 0x50, 0x05, 0x26, 0x40, 0x40, 0x05, 0x00, 0x00, 0x26, 0x01, 0x09, 0x2B, 0x00, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x0C, 0x00, 0xF5, 0xA0, 0x06, 0x40, 0x10, 0x0E, 0x00, 0x00, 0x00, 0x03, 0x0C, 0x00, 0x00, 0x65, 0x06, 0x40, 0x10, 0x1E, 0x0C, 0x00, 0xFC, 0x40, 0x06, 0x40, 0x10, 0x4E, 0x0C, 0x00, 0xFC, 0x41, 0x06, 0x40, 0x10, 0x5E, 0x0C, 0x00, 0xFC, 0x42, 0x06, 0x40, 0x10, 0xEE, 0x0C, 0x00, 0xFC, 0x43, 0x06, 0x40, 0x10, 0xFE, 0x0C, 0x00, 0xFC, 0x60, 0x06, 0x40, 0x10, 0x8E, 0x0C, 0x00, 0xFC, 0x61, 0x06, 0x40, 0x10, 0x9E, 0x0C, 0x00, 0xFC, 0x68, 0x06, 0x40, 0x10, 0xAE, 0x0C, 0x00, 0xFC, 0x69, 0x06, 0x40, 0x10, 0xBE, 0x0C, 0x30, 0xFC, 0x30, 0x0C, 0x40, 0x00, 0x14, 0x00, 0x10, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x05, 0x4C, 0x10, 0xCE, 0x05, 0x6C, 0x10, 0xDE, 0x05, 0x0C, 0x10, 0x0E, 0x06, 0x00, 0x10, 0x1E, 0x00, 0x04, 0x45, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x4C, 0x90, 0x2E, 0x05, 0x0C, 0x10, 0x2E, 0x06, 0x00, 0x10, 0x1E, 0x00, 0x04, 0x45, 0x00, 0x00, 0x00, 0x00, 0x00, 0x05, 0x4C, 0x90, 0x3E, 0xC0, 0x00, 0x08, 0x1F, 0x8D, 0x80, 0x00, 0x1B, 0x05, 0x0C, 0x10, 0x3E, 0x0B, 0x21, 0xFD, 0x84, 0xC0, 0x00, 0x08, 0x1F, 0x8D, 0x94, 0x00, 0x1A, 0x06, 0x10, 0x10, 0x4E, 0x06, 0x10, 0x90, 0x5E, 0x0C, 0x00, 0xFD, 0xA0, 0x00, 0x10, 0x00, 0x08, 0x0D, 0x01, 0x00, 0x1A, 0x05, 0x4C, 0x10, 0x6E, 0x05, 0x6C, 0x10, 0x7E, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0x15, 0x06, 0x10, 0x10, 0x6E, 0x06, 0x10, 0x90, 0x7E, 0x06, 0x11, 0x10, 0x8E, 0x06, 0x11, 0x90, 0x9E, 0x06, 0x0C, 0x40, 0xA0, 0xE0, 0x38, 0x80, 0x06, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0x80, 0x0A, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0x80, 0x0E, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0x80, 0x12, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0x80, 0x16, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0x80, 0x1A, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0x80, 0x1E, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0x80, 0x22, 0x80, 0x00, 0x01, 0x0A, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0x19, 0x06, 0x10, 0x10, 0xAE, 0x06, 0x10, 0x90, 0xBE, 0x06, 0x11, 0x10, 0xCE, 0x06, 0x11, 0x90, 0xDE, 0x06, 0x0C, 0x40, 0xA0, 0xE0, 0x38, 0x80, 0x02, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0xA4, 0x02, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0xA8, 0x02, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0xAC, 0x02, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0xB0, 0x02, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0xB4, 0x02, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0xB8, 0x02, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x38, 0xBC, 0x02, 0x80, 0x00, 0x01, 0x0A, 0xC0, 0x00, 0x00, 0x00, 0x82, 0x0F, 0x00, 0x1D, 0x06, 0x10, 0x10, 0xEE, 0x06, 0x10, 0x90, 0xFE, 0x06, 0x04, 0x40, 0xA0, 0xE0, 0x20, 0xC0, 0x01, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x20, 0xA4, 0x01, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x20, 0xA8, 0x01, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x20, 0xAC, 0x01, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x20, 0xB0, 0x01, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x20, 0xB4, 0x01, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x20, 0xB8, 0x01, 0x80, 0x00, 0x01, 0x0A, 0xE0, 0x20, 0xBC, 0x01, 0x80, 0x00, 0x01, 0x0A, 0x00, 0x84, 0x08, 0x80, 0x05, 0x4C, 0x91, 0x0E, 0x05, 0x4D, 0x11, 0x1E, 0x05, 0x4D, 0x91, 0x2E, 0x05, 0x4E, 0x11, 0x3E, 0x05, 0x4E, 0x91, 0x4E, 0x05, 0x4F, 0x11, 0x5E, 0x05, 0x4F, 0x91, 0x6E, 0x05, 0x6C, 0x11, 0x7E, 0x0C, 0x82, 0x00, 0x66, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x11, 0x0E, 0x05, 0x4C, 0x11, 0x8E, 0x0C, 0x82, 0x00, 0x67, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x11, 0x1E, 0x05, 0x4C, 0x11, 0x9E, 0x0C, 0x82, 0x00, 0x68, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x11, 0x2E, 0x05, 0x4C, 0x11, 0xAE, 0x0C, 0x82, 0x00, 0x69, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x11, 0x3E, 0x05, 0x4C, 0x11, 0xBE, 0x0C, 0x82, 0x00, 0x6A, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x11, 0x4E, 0x05, 0x4C, 0x11, 0xCE, 0x0C, 0x82, 0x00, 0x6B, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x11, 0x5E, 0x05, 0x4C, 0x11, 0xDE, 0x0C, 0x82, 0x00, 0x6C, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x11, 0x6E, 0x05, 0x4C, 0x11, 0xEE, 0x0C, 0x82, 0x00, 0x6D, 0x0A, 0x21, 0xDC, 0xDC, 0x35, 0x0C, 0x11, 0x7E, 0x05, 0x4C, 0x11, 0xFE, 0x06, 0x00, 0x11, 0x8E, 0x0D, 0x00, 0xFC, 0xC0, 0x06, 0x00, 0x11, 0x9E, 0x0D, 0x00, 0xFC, 0xC1, 0x06, 0x00, 0x11, 0xAE, 0x0D, 0x00, 0xFC, 0xC2, 0x06, 0x00, 0x11, 0xBE, 0x0D, 0x00, 0xFC, 0xC3, 0x06, 0x00, 0x11, 0xCE, 0x0D, 0x00, 0xFC, 0xC4, 0x06, 0x00, 0x11, 0xDE, 0x0D, 0x00, 0xFC, 0xC5, 0x06, 0x00, 0x11, 0xEE, 0x0D, 0x00, 0xFC, 0xC6, 0x06, 0x00, 0x11, 0xFE, 0x0D, 0x00, 0xFC, 0xC7, 0x08, 0x9C, 0x00, 0x10, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x2E, 0x01, 0x00, 0x00, 0x00, 0x00, 0x09, 0x9C, 0x00, 0x10, 0x00, 0x00, 0x00, 0x02, 0x0C, 0x10, 0xF4, 0x60, 0x02, 0xC2, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Program>
+        <Register>
+            <Name>DM0 Data</Name>
+            <Address>0</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>456</Size>
+            <Data>0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x1C, 0x00, 0x00, 0x00, 0x20, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x08, 0x18, 0x6E, 0x01, 0x00, 0x00, 0x00, 0x00, 0x01, 0x9D, 0x81, 0x00, 0x00, 0x06, 0x8E, 0x01, 0x00, 0x00, 0x00, 0x00, 0x08, 0x18, 0x6E, 0x01, 0xFE, 0xC9, 0x83, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x08, 0x18, 0x6E, 0x00, 0x08, 0x18, 0x6E, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x06, 0x8E, 0x01, 0x00, 0x00, 0x00, 0x00, 0x08, 0x18, 0x6E, 0x01, 0x1F, 0x3C, 0x9A, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x1F, 0x3C, 0x9A, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x7D, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>DM1 Data</Name>
+            <Address>24576</Address>
+            <AddrIncr>4</AddrIncr>
+            <Size>256</Size>
+            <Data>0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x60, 0x09, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x15, 0x00, 0x00, 0x00, 0x16, 0x00, 0x00, 0x00, 0x17, 0x00, 0x00, 0x00, 0x18, 0x00, 0x00, 0x00, 0x1F, 0x00, 0x00, 0x00, 0x20, 0x00, 0x00, 0x00, 0x21, 0x00, 0x00, 0x00, 0x22, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x3C, 0xF0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.KILL_CORE</Name>
+            <Address>62467</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_ADDRESS</Name>
+            <Address>62468</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_PULSE</Name>
+            <Address>62465</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x02, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_CORE</Name>
+            <Address>62466</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.START_CORE</Name>
+            <Address>62466</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.Start Delay</Name>
+            <Address>0</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x01, </Data>
+        </Register>
+        <Register>
+            <Name>IC 1.HIBERNATE</Name>
+            <Address>62464</Address>
+            <AddrIncr>0</AddrIncr>
+            <Size>2</Size>
+            <Data>0x00, 0x00, </Data>
+        </Register>
+        <Module>
+            <CellName>ADC VOL.Slew vol 1_2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>ExternalGainAlgSlew145X2</DetailedName>
+                <Description>Gain (HW slew)( 1 ) : Type1[ 0 ],Type2[ 0 ],Index1[ 15 ],Index2[ 15 ];</Description>
+                <ModuleParameter>
+                    <Name>ExternalGainAlgSlew145X2slew_mode</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24603</Address>
+                    <Value>15600</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x3C, 0xF0, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>ADC VOL.DC1_2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>DCInpAlg145X1</DetailedName>
+                <Description>DC-Input( 1 ) : FormatL[ 20 ],FormatM[ 12 ],DC[ 2000 ],IsDBSelected[ True ];</Description>
+                <ModuleParameter>
+                    <Name>DCInpAlg145X1value</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>101</Address>
+                    <Value>2000</Value>
+                    <Size>4</Size>
+                    <Data>0x7D, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>SPDIF RX</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>ASRCInwithGainAlg1</DetailedName>
+                <Description>From ASRC with Gain (No Slew)( 2 ) : Gain[ 1 ];Gain[ 1 ];</Description>
+                <ModuleParameter>
+                    <Name>ASRCInwithGainAlg1gain1</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>0</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>ASRCInwithGainAlg1gain0</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>20</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>NxM Mixer1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>NxNMixS3004p6Alg1</DetailedName>
+                <Description>NxM Mixer( 64 ) : Gain`max0_0[ 6 ],Gain`min0_0[ -100 ],Gain`res0_0[ 106 ],Gain0_0[ 0 ];Gain`max0_1[ 6 ],Gain`min0_1[ -30 ],Gain`res0_1[ 36 ],Gain0_1[ 0 ];Gain`max0_2[ 6 ],Gain`min0_2[ -30 ],Gain`res0_2[ 36 ],Gain0_2[ 0 ];Gain`max0_3[ 6 ],Gain`min0_3[ -30 ],Gain`res0_3[ 36 ],Gain0_3[ 0 ];Gain`max0_4[ 6 ],Gain`min0_4[ -30 ],Gain`res0_4[ 36 ],Gain0_4[ -30 ];Gain`max0_5[ 6 ],Gain`min0_5[ -30 ],Gain`res0_5[ 36 ],Gain0_5[ 0 ];Gain`max0_6[ 0 ],Gain`min0_6[ -80 ],Gain`res0_6[ 80 ],Gain0_6[ -10 ];Gain`max0_7[ 6 ],Gain`min0_7[ -80 ],Gain`res0_7[ 86 ],Gain0_7[ -56 ];Gain`max0_8[ 6 ],Gain`min0_8[ -30 ],Gain`res0_8[ 36 ],Gain0_8[ -27 ];Gain`max0_9[ 6 ],Gain`min0_9[ -30 ],Gain`res0_9[ 36 ],Gain0_9[ -30 ];Gain`max0_10[ 6 ],Gain`min0_10[ -30 ],Gain`res0_10[ 36 ],Gain0_10[ 0 ];Gain`max0_11[ 6 ],Gain`min0_11[ -30 ],Gain`res0_11[ 36 ],Gain0_11[ 0 ];Gain`max0_12[ 6 ],Gain`min0_12[ -30 ],Gain`res0_12[ 36 ],Gain0_12[ 0 ];Gain`max0_13[ 6 ],Gain`min0_13[ -30 ],Gain`res0_13[ 36 ],Gain0_13[ 0 ];Gain`max0_14[ 6 ],Gain`min0_14[ -30 ],Gain`res0_14[ 36 ],Gain0_14[ 0 ];Gain`max0_15[ 6 ],Gain`min0_15[ -30 ],Gain`res0_15[ 36 ],Gain0_15[ 0 ];Gain`max0_16[ 6 ],Gain`min0_16[ -30 ],Gain`res0_16[ 36 ],Gain0_16[ 0 ];Gain`max0_17[ 6 ],Gain`min0_17[ -30 ],Gain`res0_17[ 36 ],Gain0_17[ 0 ];Gain`max0_18[ 6 ],Gain`min0_18[ -30 ],Gain`res0_18[ 36 ],Gain0_18[ 0 ];Gain`max0_19[ 6 ],Gain`min0_19[ -30 ],Gain`res0_19[ 36 ],Gain0_19[ 0 ];Gain`max0_20[ 6 ],Gain`min0_20[ -30 ],Gain`res0_20[ 36 ],Gain0_20[ 0 ];Gain`max0_21[ 6 ],Gain`min0_21[ -30 ],Gain`res0_21[ 36 ],Gain0_21[ 0 ];Gain`max0_22[ 6 ],Gain`min0_22[ -30 ],Gain`res0_22[ 36 ],Gain0_22[ 0 ];Gain`max0_23[ 6 ],Gain`min0_23[ -30 ],Gain`res0_23[ 36 ],Gain0_23[ 0 ];Gain`max0_24[ 6 ],Gain`min0_24[ -30 ],Gain`res0_24[ 36 ],Gain0_24[ 0 ];Gain`max0_25[ 6 ],Gain`min0_25[ -30 ],Gain`res0_25[ 36 ],Gain0_25[ 0 ];Gain`max0_26[ 6 ],Gain`min0_26[ -30 ],Gain`res0_26[ 36 ],Gain0_26[ 0 ];Gain`max0_27[ 6 ],Gain`min0_27[ -30 ],Gain`res0_27[ 36 ],Gain0_27[ 0 ];Gain`max0_28[ 6 ],Gain`min0_28[ -30 ],Gain`res0_28[ 36 ],Gain0_28[ 0 ];Gain`max0_29[ 6 ],Gain`min0_29[ -30 ],Gain`res0_29[ 36 ],Gain0_29[ 0 ];Gain`max0_30[ 6 ],Gain`min0_30[ -30 ],Gain`res0_30[ 36 ],Gain0_30[ 0 ];Gain`max0_31[ 6 ],Gain`min0_31[ -30 ],Gain`res0_31[ 36 ],Gain0_31[ 0 ];Gain`max0_32[ 6 ],Gain`min0_32[ -30 ],Gain`res0_32[ 36 ],Gain0_32[ 0 ];Gain`max0_33[ 6 ],Gain`min0_33[ -30 ],Gain`res0_33[ 36 ],Gain0_33[ 0 ];Gain`max0_34[ 6 ],Gain`min0_34[ -30 ],Gain`res0_34[ 36 ],Gain0_34[ 0 ];Gain`max0_35[ 6 ],Gain`min0_35[ -30 ],Gain`res0_35[ 36 ],Gain0_35[ 0 ];Gain`max0_36[ 6 ],Gain`min0_36[ -30 ],Gain`res0_36[ 36 ],Gain0_36[ 0 ];Gain`max0_37[ 6 ],Gain`min0_37[ -30 ],Gain`res0_37[ 36 ],Gain0_37[ 0 ];Gain`max0_38[ 6 ],Gain`min0_38[ -30 ],Gain`res0_38[ 36 ],Gain0_38[ 0 ];Gain`max0_39[ 6 ],Gain`min0_39[ -30 ],Gain`res0_39[ 36 ],Gain0_39[ 0 ];Gain`max0_40[ 6 ],Gain`min0_40[ -30 ],Gain`res0_40[ 36 ],Gain0_40[ 0 ];Gain`max0_41[ 6 ],Gain`min0_41[ -30 ],Gain`res0_41[ 36 ],Gain0_41[ 0 ];Gain`max0_42[ 6 ],Gain`min0_42[ -30 ],Gain`res0_42[ 36 ],Gain0_42[ 0 ];Gain`max0_43[ 6 ],Gain`min0_43[ -30 ],Gain`res0_43[ 36 ],Gain0_43[ 0 ];Gain`max0_44[ 6 ],Gain`min0_44[ -30 ],Gain`res0_44[ 36 ],Gain0_44[ 0 ];Gain`max0_45[ 6 ],Gain`min0_45[ -30 ],Gain`res0_45[ 36 ],Gain0_45[ 0 ];Gain`max0_46[ 6 ],Gain`min0_46[ -30 ],Gain`res0_46[ 36 ],Gain0_46[ 0 ];Gain`max0_47[ 6 ],Gain`min0_47[ -30 ],Gain`res0_47[ 36 ],Gain0_47[ 0 ];Gain`max0_48[ 6 ],Gain`min0_48[ -30 ],Gain`res0_48[ 36 ],Gain0_48[ 0 ];Gain`max0_49[ 6 ],Gain`min0_49[ -30 ],Gain`res0_49[ 36 ],Gain0_49[ 0 ];Gain`max0_50[ 6 ],Gain`min0_50[ -30 ],Gain`res0_50[ 36 ],Gain0_50[ 0 ];Gain`max0_51[ 6 ],Gain`min0_51[ -30 ],Gain`res0_51[ 36 ],Gain0_51[ 0 ];Gain`max0_52[ 6 ],Gain`min0_52[ -30 ],Gain`res0_52[ 36 ],Gain0_52[ 0 ];Gain`max0_53[ 6 ],Gain`min0_53[ -30 ],Gain`res0_53[ 36 ],Gain0_53[ 0 ];Gain`max0_54[ 6 ],Gain`min0_54[ -30 ],Gain`res0_54[ 36 ],Gain0_54[ 0 ];Gain`max0_55[ 6 ],Gain`min0_55[ -30 ],Gain`res0_55[ 36 ],Gain0_55[ 0 ];Gain`max0_56[ 6 ],Gain`min0_56[ -30 ],Gain`res0_56[ 36 ],Gain0_56[ 0 ];Gain`max0_57[ 6 ],Gain`min0_57[ -30 ],Gain`res0_57[ 36 ],Gain0_57[ 0 ];Gain`max0_58[ 6 ],Gain`min0_58[ -30 ],Gain`res0_58[ 36 ],Gain0_58[ 0 ];Gain`max0_59[ 6 ],Gain`min0_59[ -30 ],Gain`res0_59[ 36 ],Gain0_59[ 0 ];Gain`max0_60[ 6 ],Gain`min0_60[ -30 ],Gain`res0_60[ 36 ],Gain0_60[ 0 ];Gain`max0_61[ 6 ],Gain`min0_61[ -30 ],Gain`res0_61[ 36 ],Gain0_61[ 0 ];Gain`max0_62[ 6 ],Gain`min0_62[ -30 ],Gain`res0_62[ 36 ],Gain0_62[ 0 ];Gain`max0_63[ 6 ],Gain`min0_63[ -30 ],Gain`res0_63[ 36 ],Gain0_63[ 0 ];</Description>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_00</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>21</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_01</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>22</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_02</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>23</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_03</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>24</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_04</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>25</Address>
+                    <Value>0.0316227674484253</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x18, 0x6E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_05</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>26</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_06</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>27</Address>
+                    <Value>0.316227793693542</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x50, 0xF4, 0x4E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_07</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>28</Address>
+                    <Value>0.00158488750457764</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x67, 0xDE, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_08</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>29</Address>
+                    <Value>0.0446683764457703</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x0B, 0x6F, 0x63, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_00_09</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>30</Address>
+                    <Value>0.0316227674484253</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x18, 0x6E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_01_00</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>31</Address>
+                    <Value>1.99526232481003</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0xFE, 0xC9, 0x83, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_01_01</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>32</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_01_02</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>33</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_01_03</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>34</Address>
+                    <Value>0.0316227674484253</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x18, 0x6E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_01_04</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>35</Address>
+                    <Value>0.0316227674484253</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x18, 0x6E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_01_05</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>36</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_01_06</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>37</Address>
+                    <Value>0.000100016593933105</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x06, 0x8E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_01_07</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>38</Address>
+                    <Value>0.223872125148773</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x39, 0x4F, 0xAF, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_01_08</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>39</Address>
+                    <Value>0.0316227674484253</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x08, 0x18, 0x6E, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_01_09</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>40</Address>
+                    <Value>1.12201845645905</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x1F, 0x3C, 0x9A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_02_00</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>41</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_02_01</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>42</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_02_02</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>43</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_02_03</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>44</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_02_04</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>45</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_02_05</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>46</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_02_06</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>47</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_02_07</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>48</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_02_08</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>49</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_02_09</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>50</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_03_00</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>51</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_03_01</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>52</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_03_02</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>53</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_03_03</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>54</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_03_04</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>55</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_03_05</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>56</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_03_06</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>57</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_03_07</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>58</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_03_08</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>59</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_03_09</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>60</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_04_00</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>61</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_04_01</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>62</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_04_02</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>63</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_04_03</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>64</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_04_04</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>65</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_04_05</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>66</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_04_06</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>67</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_04_07</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>68</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_04_08</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>69</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_04_09</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>70</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_05_00</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>71</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_05_01</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>72</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_05_02</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>73</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_05_03</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>74</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_05_04</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>75</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_05_05</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>76</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_05_06</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>77</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_05_07</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>78</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_05_08</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>79</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_05_09</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>80</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_06_00</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>81</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_06_01</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>82</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_06_02</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>83</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_06_03</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>84</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_06_04</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>85</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_06_05</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>86</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_06_06</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>87</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_06_07</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>88</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_06_08</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>89</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_06_09</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>90</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_07_00</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>91</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_07_01</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>92</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_07_02</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>93</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_07_03</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>94</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_07_04</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>95</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_07_05</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>96</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_07_06</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>97</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_07_07</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>98</Address>
+                    <Value>1.12201845645905</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x1F, 0x3C, 0x9A, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_07_08</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>99</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+                <ModuleParameter>
+                    <Name>NxNMixS3004p6Alg1vol_07_09</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>100</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x01, 0x00, 0x00, 0x00, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute1</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg1</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg1mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>102</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute1_2</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg2</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg2mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>103</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute1_3</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg3</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg3mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>104</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute1_4</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg4</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg4mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>105</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute1_5</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg5</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg5mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>106</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute1_6</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg6</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg6mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>107</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute1_7</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg7</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg7mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>108</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+        <Module>
+            <CellName>Mute1_8</CellName>
+            <Algorithm>
+                <AlgoName>ALG0</AlgoName>
+                <DetailedName>MuteNoSlewADAU145XAlg8</DetailedName>
+                <Description>Mute (no-slew)( 1 ) : Mute[ False ];</Description>
+                <ModuleParameter>
+                    <Name>MuteNoSlewADAU145XAlg8mute</Name>
+                    <Type>FixedPoint</Type>
+                    <Address>109</Address>
+                    <Value>1</Value>
+                    <Size>4</Size>
+                    <Data>0x00, 0x00, 0x00, 0x01, </Data>
+                </ModuleParameter>
+            </Algorithm>
+        </Module>
+    </IC>
+    <IC>
+        <Name>IC 2</Name>
+    </IC>
+</Schematic>

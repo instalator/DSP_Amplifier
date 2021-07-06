@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+<ROM IC="ADAU1452" IC_Address="1" Address_byte_length="2">
+  <dateTime>2021-06-05T09:00:41.2186139Z</dateTime>
+  <version>4.6.0.1812</version>
+  <page modetype="Mode 0">
+    <action instr="read" len="4" addr="62469" AddrIncr="0">00 00</action>
+    <action instr="read" len="4" addr="62850" AddrIncr="0" ParamName="IC 1.ASRC0_RATIO" DspName="IC 1">
+    </action>
+    <action instr="read" len="4" addr="62880" AddrIncr="0" ParamName="IC 1.ADC_READ0" DspName="IC 1">
+    </action>
+  </page>
+</ROM>
